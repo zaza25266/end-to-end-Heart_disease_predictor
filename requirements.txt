@@ -12,3 +12,4 @@ slowapi
 scipy
 dotenv
 requests
+gunicorn
