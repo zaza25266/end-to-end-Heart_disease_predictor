@@ -13,3 +13,6 @@ logs/*.txt
 
 # OS generated files
 .DS_Store
+
+# Secrets
+.env
