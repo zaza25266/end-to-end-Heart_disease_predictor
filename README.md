@@ -64,6 +64,9 @@ Built a FastAPI backend that loads the trained model and returns predictions. Wr
 
 ## Project Structure
 
+## Project Structure
+
+\`\`\`text
 heart_disease_project/
 ├── .github/
 │   └── workflows/
@@ -94,3 +97,4 @@ heart_disease_project/
 ├── docker-compose.yml
 ├── requirements.txt
 └── setup.py
+\`\`\`
