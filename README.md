@@ -69,29 +69,43 @@ heart_disease_project/
 ├── .github/
 │   └── workflows/
 │       └── ci.yml                        # Runs tests on every push
+
 ├── api/
 │   └── main.py                           # FastAPI backend
+
 ├── data/                                 # SQLite prediction logs
+
 ├── frontend/
 │   ├── index.html
 │   ├── script.js
 │   └── style.css
+
 ├── logs/
 │   └── logger.py
+
 ├── mlartifacts/                          # MLflow run history
+
 ├── models/
 │   └── best_Tuned_LightGBM.pkl           # Final model
+
 ├── notebook/
 │   └── eda.ipynb                         # Data exploration
+
 ├── preprocess_pipeline/
 │   ├── __init__.py
 │   └── pre_processing.py                 # Feature engineering
+
 ├── py_test/
 │   ├── test_data.py                      # Data integrity tests
 │   └── test_predict.py                   # Prediction output tests
+
 ├── training/
 │   └── train.py                          # Training & tuning script
+
 ├── Dockerfile.api
+
 ├── docker-compose.yml
+
 ├── requirements.txt
+
 └── setup.py
