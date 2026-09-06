@@ -95,4 +95,3 @@ heart_disease_project/
 ├── docker-compose.yml
 ├── requirements.txt
 └── setup.py
-​```
